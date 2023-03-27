@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "main": "./src/index.ts",
+  "scripts": {
+    "dev": "nodemon ./src/dev.ts"
+  },
+  "devDependencies": {
+    "dotenv": "16.0.3",
+    "nodemon": "2.0.21",
+    "ts-node": "10.9.1"
+  },
+  "dependencies": {
+    "ydb-sdk": "4.1.0"
+  }
+}
