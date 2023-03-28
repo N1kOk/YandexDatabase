@@ -2,7 +2,9 @@
 
 ## Install package from GitHub
 
-`npm install N1kOk/YandexDatabase`
+```bash
+npm install N1kOk/YandexDatabase
+```
 
 ## Set environment variables
 
@@ -52,6 +54,6 @@ import { db } from 'N1kOk/YandexDatabase'
 const SELECT_QUERY = 'SELECT * FROM users'
 
 await db.executeQuery(SELECT_QUERY) // return void
-await db.executeQuery(SELECT_QUERY, User) // return User
+await db.executeQuery(SELECT_QUERY, User) // return first User
 await db.executeQuery(SELECT_QUERY, User, true) // return User[]
 ```
