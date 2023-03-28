@@ -3,7 +3,7 @@
   "main": "./dist/index.js",
   "scripts": {
     "build": "tsc",
-    "dev": "nodemon ./src/dev.ts"
+    "dev": "nodemon src/test/index.ts"
   },
   "devDependencies": {
     "dotenv": "16.0.3",

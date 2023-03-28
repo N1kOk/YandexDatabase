@@ -1,5 +1,5 @@
 import './shared/env'
-import { db } from './index'
+import { db } from '../index'
 import { snakeToCamelCaseConversion, TypedData, withTypeOptions } from 'ydb-sdk'
 
 @withTypeOptions({ namesConversion: snakeToCamelCaseConversion })
